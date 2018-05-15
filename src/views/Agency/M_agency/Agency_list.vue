@@ -1,0 +1,43 @@
+<template>
+	<div>
+		<el-table
+			:data="agency_list"
+			border
+			style="width: 100%">
+			<el-table-column
+					prop="agency_name"
+					label="机构名称"
+					width="180">
+			</el-table-column>
+			<el-table-column
+					prop="agecy_click"
+					label="点击量"
+					width="180">
+			</el-table-column>
+			<el-table-column
+				prop="agency_comment"
+				label="评论数"
+				width="180">
+			</el-table-column>
+			<el-table-column
+				prop="agency_date"
+				label="添加时间"
+				width="180">
+			</el-table-column>
+			<el-table-column
+				prop="agency_status"
+				label="状态"
+				width="180">
+			</el-table-column>
+			<el-table-column
+				prop="agency_use"
+				label="操作"
+				width="180">
+			</el-table-column>
+			</el-table>
+	</div>
+</template>
+
+<script>
+	
+</script>

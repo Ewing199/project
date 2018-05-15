@@ -1,0 +1,34 @@
+<template>
+	<div>
+		<el-table
+			:data="agency_list"
+			border
+			style="width: 100%">
+			<el-table-column
+					prop="agency_content"
+					label="内容"
+					width="180">
+			</el-table-column>
+				<el-table-column
+					prop="agecy_title"
+					label="标题"
+					width="180">
+				</el-table-column>
+			<el-table-column
+					prop="agency_reply"
+					label="回复"
+					width="180">
+				</el-table-column>
+			<el-table-column
+					prop="agency_comments_date"
+					label="评论时间"
+					width="180">
+				</el-table-column>
+			<el-table-column
+					prop="agency_use"
+					label="操作"
+					width="180">
+				</el-table-column>
+			</el-table>
+	</div>
+</template>

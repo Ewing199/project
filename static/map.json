@@ -1,0 +1,37 @@
+	export defalut{
+		options:[{
+					value:'hubei',
+					label:'湖北',
+					children:[{
+						value:'wuhan',
+						label:'武汉',
+						children:[{
+							value: 'hongshanqu',
+							label:'洪山区'
+						},
+						{
+							value:'wuchang',
+							label:'武昌区'
+						}]
+					}]
+
+				},
+				{
+					value:'hunan',
+					label:'湖南',
+					children:[{
+						value:'changsha',
+						label:'长沙',
+						children:[{
+							value: 'kkk',
+							label:'lkkk'
+						},
+						{
+							value:'aaa',
+							label:'aaa'
+						}]
+					}]
+
+				},
+				]
+			}
